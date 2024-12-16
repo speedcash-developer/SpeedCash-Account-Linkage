@@ -1,0 +1,63 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Dependency directories (in case you use Yarn or pnpm)
+.pnp/
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Coverage directory
+coverage/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Editor directories and settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Pino logs (if using pino for logging)
+*.pino
+
+# Ignore Superagent cache (if any, in development)
+.superagent-cache
+
+# PEM files (SSL certificates, keys)
+*.pem
+
+
+# Other temporary or backup files
+*.swp
+
+#local data
+localData.json
